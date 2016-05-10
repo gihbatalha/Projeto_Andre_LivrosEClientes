@@ -1,0 +1,109 @@
+@CHARSET "ISO-8859-1";
+
+body { overflow-x: hidden; }
+
+.logo{
+	max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 70px;
+}
+
+.titulo{
+	font-family: "Lucida Handwriting";
+	font-size: 50px;
+	color: white;
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 250px;
+
+}
+
+.subtitulo{
+	font-family: "Lucida Handwriting";
+	font-size: 40px;
+	color: white;
+	position: absolute;
+	margin-top: 120px;
+	margin-left: 280px;
+}
+
+.menu{
+	position: absolute;
+	
+	background-color:#86E2D5;
+
+	height: 200px;
+	width: 104%;
+	top: 50%
+	left:50%;
+	margin-top:-50px;
+	margin-left:-50px;
+}
+
+.item1{
+	font-family: "Lucida Sans";
+	font-size: 22px;
+	color: purple;
+	position: absolute;	
+	margin-top: 105px;
+	margin-left: 680px;
+}
+
+.item2{
+	font-family: "Lucida Sans";
+	font-size: 22px;
+	color: purple;
+	position: absolute;	
+	margin-top: 105px;
+	margin-left: 880px;
+}
+
+.item3{
+	font-family: "Lucida Sans";
+	font-size: 22px;
+	color: purple;
+	position: absolute;	
+	margin-top: 105px;
+	margin-left: 1080px;
+}
+
+.formulario{
+	font-family: "Lucida Sans";
+	font-size: 20px;
+	color: black;
+
+	position: absolute;
+	height: 500px;
+	width:50%;
+	margin-top:300px;
+	margin-left:400px; 
+}
+
+}
+
+.tituloForm{
+	font-family: "Lucida Sans";
+	font-size: 30px;
+	color: black;
+	margin-top:0px;
+	margin-left:400px;
+
+}
+
+
+
+a:link {text-decoration: none;}
+a:hover {
+	margin-top: 110px;
+	border-bottom:1px solid white; 
+}
+
+.linkTitulo{
+	text-decoration:none;
+	
+}

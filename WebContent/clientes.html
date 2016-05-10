@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<link rel="shortcut icon" href="icon_livro.png">
+	<link rel="stylesheet" href="estilo.css" type="text/css">
+	<meta charset="utf-8">
+	<script type="text/javascript" src="javascript.js"></script>
+
+	<title> Cadastro de Clientes </title>
+</head>
+<body>
+
+<div class="menu">
+
+<img class="logo" src="logo.png"> 
+
+<label class="titulo"> Cadastro </label> 
+<label class="subtitulo"> Clientes e Livros </label> 
+
+<a href="index.html" class="item1" > Início </a>
+<a href="clientes.html" class="item2" > Clientes </a>
+<a href="livros.html" class="item3" > Livros </a>
+
+</div>	
+
+<div class="formulario">
+	<label class="tituloForm"> Cadastro Clientes </label>
+	
+	<form action="Inclusao">
+		  <p> Id    <input type="text" size="10" name="idCliente"   id="idCliente"  disabled > <br><br>	
+		  <p> Nome  <input type="text" size="80" name="nomeCliente" > <br><br>
+		  <p> RG    <input type="text" size="80" name="rgCliente" > <br><br>
+		  <p> CPF   <input type="text" size="80" name="cpfCliente" > <br><br>
+		 
+		 <button type="submit"  onClick="document.forms[0].action = 'Inclusao'; return true; "> Incluir </button> 
+		 <br><br>
+		 <button type="submit"  onClick="document.forms[0].action = 'AbrirParaExclusao'; return true; "> Preparar Exclusão </button>
+		 <br><br>
+		 <button type="submit"  onClick="document.forms[0].action = 'Alteracao'; return true; " id="btnAlteracao"> Alteração </button>
+		 <br><br>
+		 <button type="submit"  id="btnPreparaAlt" onClick="document.getElementById('idCliente').disabled = false;  document.getElementById('btnAlteracao').disabled = false; document.getElementById('btnPreparaAlt').disabled = true; "> Preparar Alteração </button>
+		 <br><br>
+		 <button type="submit"  onClick="document.forms[0].action = 'Pesquisa'; return true; "> Pesquisar </button>
+	</form>
+</div>
+</body>
+</html>
